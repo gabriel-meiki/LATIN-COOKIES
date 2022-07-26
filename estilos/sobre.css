@@ -1,0 +1,106 @@
+.banner {
+    margin: 0 auto;
+    width: 1686px;
+    height: 380px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+
+main {
+    align-items: center;
+}
+
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 130px auto;
+    padding: 30px auto;
+
+}
+
+#texto p {
+    width: 1306px;
+    text-align: justify;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+#pessoas {
+    margin: 220px auto 250px auto;
+
+}
+
+.pessoas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 70px auto;
+}
+
+.card {
+    background-color: #F4C8B2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 333px;
+    height: 555px;
+    border-radius: 10px;
+}
+
+.card:not(:last-child){
+    margin-right: 111px;
+}
+
+.card .pessoa .foto{
+    width: 273px;
+    height: 240px;
+    border-radius: 15px;
+    margin: 28px 30px;
+}
+
+.card p{
+    margin: 10px;
+}
+
+.detalhes {
+    justify-content: center;
+    text-align: center;
+}
+
+.card .nome {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    color: #E48B5E;
+}
+
+.card .ser {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    color: #616161;
+}
+
+.card .funcao {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 20px;
+}

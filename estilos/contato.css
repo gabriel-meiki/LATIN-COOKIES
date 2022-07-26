@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+
+section {
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+    text-align: center;
+    height: 710px;
+}
+
+
+#local {
+    width: 390px;
+    text-align: justify;
+}
+
+#local h1{
+    font-size: 42px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#local p{
+    font-size: 28px;
+    font-weight: 700px;
+    margin: 7px;
+}
+
+
+
+
+.formulario {
+    background-color: #F4C8B2;
+    border-radius: 25px;
+    justify-content: center;
+    width: 960px;
+    height: 730px;
+    box-shadow: 0px 4px 8px #694d3f52;
+}
+
+.formulario h2{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.formulario p {
+    font-size: 25px;
+    color: black;
+    margin-top: 7px;
+    margin-bottom: 12px;
+}
+
+form {
+    margin: auto;
+    width: 840px;
+}
+
+form input, textarea {
+    width: 90%;
+    margin: auto;
+    height: 70px;
+    margin: 10px auto;
+    border-radius: 10px;
+    color:black;
+    font-size: 23px;
+    padding: 5px 40px 2px;
+}
+
+textarea {
+    padding-top: 14px;
+    height: 130px;
+}
+
+form button{
+    margin-top: 22px;
+    background-color: #AB7852;
+    color: black;
+    height: 75px;
+    width: 160px;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: solid 2px black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.274);
+}
+
+form button:hover {
+    background-color: rgb(255, 198, 198);
+}

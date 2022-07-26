@@ -1,0 +1,38 @@
+.banner {
+    margin: 0 auto;
+    width: 1686px;
+    height: 380px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.grid {
+    margin: 100px auto;
+}
+
+.grid p {
+    font-size: 29px;
+    margin: 8px auto 12px auto;
+    font-weight: 700;
+    color: black;
+}
+
+del {
+    color:#616161;
+    font-weight: 400;
+}
+
+span {
+    color: #CB5418;
+    
+}
+
+#especial {
+    font-size: 31px;
+}
+
+#agachado {
+    margin-bottom: 17px;
+}

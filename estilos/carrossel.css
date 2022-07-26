@@ -1,0 +1,151 @@
+
+
+.carrossel {
+    margin: 0 auto;
+    width: 1686px;
+    height: 400px;
+    overflow: hidden;
+    background-color:#f6dde8;
+}
+
+.slides {
+    width: 500%;
+    height: 370px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide {
+    position: relative;
+    transition: 3s;
+}
+
+.slide img {
+    width: 1686px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 1686px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.manual-btn {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 20px;
+    margin-top: 45px;
+    height: 5px;
+    width: 5px;
+
+}
+
+.manual-btn:not(:last-child){
+    margin-left: 20px;
+}
+
+
+.manual-btn:hover {
+    background-color:#f6dde8;
+}
+
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+#radio5:checked ~ .first{
+    margin-left: -80%;
+}
+
+
+.navigation-auto div{
+    border: 2px solid black;
+    background-color: #bebdbd67;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 20px;
+    height: 5px;
+    width: 5px;
+
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 415px;
+    margin-left: 443px;
+    display: flex;
+    justify-content: center;
+}
+
+/* deixar marcado quando clicar, deixar o botão ativo*/
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #F5AA84;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #F5AA84;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #F5AA84;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color: #F5AA84;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5 {
+    background-color: #F5AA84;
+}
+
+
+.box button {
+    position: relative;
+    background-color: greenyellow;
+    position: absolute;
+    border: 0px;
+    top: 304px;
+    left: 270px; /*270*/
+    display: inline;
+    border-radius: 5px;
+    width: 225px;
+    height: 55px;
+    box-shadow: 2px 2px 2px #3a281f4d;
+    justify-content: center;
+    background-color:#f5aa84a9;
+}
+
+.box button a{
+    margin: auto;
+    font-size: 33px;
+    font-weight: 600;
+    text-decoration: none;
+    color:#473126;
+    
+}
+
+.box button:hover {
+    background-color:rgb(255, 198, 198);
+    transition: 0.4s;
+}

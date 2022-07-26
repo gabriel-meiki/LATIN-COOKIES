@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Principal {loja}</title>
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/carrossel.css">
+    <link rel="shortcut icon" href="IMAGENS/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="IMAGENS/logo14.png" alt="logo" id="logo" />
+
+        <ul>
+          <li><a href="index.html" class="menu">Home</a></li>
+          <li><a href="produtos.html" class="menu">Produtos</a></li>
+          <li><a href="descontos.html" class="menu">Promoções</a></li>
+          <li><a href="sobre.html" class="menu">Sobre nós</a></li>
+          <li><a href="contato.html" class="menu">Contate nos</a></li>
+        </ul>
+      </nav>
+      <div class="carrossel">
+
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+
+
+            <div class="slide first">
+                <a href="contato.html"><img src="IMAGENS/carrosel-oficial1.jpeg" alt="imagem1"></a>
+            </div>
+            <div class="slide box">
+                <button><a href="descontos.html">SAIBA MAIS</a></button>
+                <img src="IMAGENS/carrosel-oficial5.jpeg" alt="imagem2">
+              
+            </div>
+            <div class="slide">
+                <a href="produtos.html"><img src="IMAGENS/carrosel-oficial4.jpeg" alt="imagem3"></a>
+            </div>
+            <div class="slide">
+                <a href="descontos.html"><img src="IMAGENS/carrosel-oficial3.jpeg" alt="imagem4"></a>
+            </div>
+            <div class="slide">
+                <a href="descontos.html"><img src="IMAGENS/carrosel-oficial2.jpeg" alt="imagem5"></a>
+            </div>
+
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+            </div>
+        </div>
+
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+        </div>
+        
+        <script src="carrossel.js"></script>
+
+    </div>
+    </header>
+    <main>
+      <section>
+        <div class="junto">
+
+          <article class="fotos">
+            <img
+              src="IMAGENS/loja2.jpeg"
+              alt="foto do estabelecimento"
+              class="foto1"
+            />
+          </article>
+
+          <article class="conteudo2">
+            <h2>Sobre nós 😁</h2>
+            <p>
+              Criada por brasileiros, somos uma loja de biscoitos, com a
+              especialidade de fazer cookies maravilhosos para você. Surgimos com
+              o sentimento e desejo de trazer felicidade e construir memórias com
+              nossas delícias. A Latin Cookies vem crescendo em toda a América do
+              Sul e logo mais chegará na américa do norte, e como brasileiros que
+              nunca desistem, só descansaremos quando dominarmos o mundo.
+            </p>
+            <a href="sobre.html" class="clique">Clique aqui para saber mais.</a>
+          </article>
+          
+        </div class="junto">
+      </section>
+
+      <section>
+        <div class="junto">
+          <article class="fotos">
+            <img
+              src="IMAGENS/cookies.jpeg"
+              alt="foto do estabelecimento"
+              class="foto2"
+            />
+          </article>
+          <article class="conteudo2">
+            <h2>Nossos biscoitos 🥰</h2>
+            <p>
+              Nossos biscoitos são feitos com muito amor, e têm o objetivo de
+              encantar todos aqueles que o provarem. Visando ficar na mente e
+              coração de nossos clientes, a Latin Cookies oferece a melhor
+              qualidade e o melhor sabor em todos os nossos produtos.
+            </p>
+            <a href="produtos.html" class="clique"> Venha e experimente também!</a>
+          </article>
+        </div class="junto">
+      </section>
+
+      <section>
+        <div class="junto">
+
+          <article class="fotos">
+            <img
+              src="IMAGENS/cookies3.jpg"
+              alt="foto do estabelecimento"
+              class="foto1"
+            />
+          </article>
+
+          <article class="conteudo2">
+            <h2>As melhores promoções 😎</h2>
+            <p>
+              Só aqui, na Latin Cookies você encontra promoções progressivas, semanais e ainda tem a chance de ganhar mais cookies por conta da casa! 
+            </p>
+            <a href="descontos.html" class="clique">Garanta sua promoção!.</a>
+          </article>
+          
+        </div class="junto">
+      </section>
+    </main>
+
+    <footer>
+      <div class="forms">
+        <form>
+          <p>Inscreva-se para receber nossas promoções e novidades.</p>
+          <input type="text" name="nome" id="nome" placeholder="Nome:" required>
+          <input type="email" name="email" id="email" placeholder="Email" required>
+          <button type="submit" name="submit"id="submit">Inscrever-se</button>
+        </form>
+      </div>
+      <div class="redes">
+        <div class="logos">
+          <div class="logo">
+            <a href="#"><img src="IMAGENS/whatsapp logo.png" alt="logo do Whatsapp"></a>
+          </div>
+          <div class="logo">
+            <a href="#"><img src="IMAGENS/instagram logo.png" alt="logo do Instagram"></a>
+          </div>
+          <div class="logo">
+            <a href="#"><img src="IMAGENS/twitter logo.png" alt="logo do Twitter"></a>
+          </div>
+          <div class="logo">
+            <a href="#"><img src="IMAGENS/facebook logo.png" alt="logo do Facebook"></a>
+          </div>
+          <div class="logo">
+            <a href="#"><img src="IMAGENS/linedin logo.png" alt="logo do Linkedin"></a>
+          </div>
+        </div>
+      </div>
+        
+      </div>
+      <div class="latin">
+        <img src="IMAGENS/logo-footer.jpeg" alt="logo do Latin Cookies">
+      </div>
+    </footer>
+  </body>
+</html>

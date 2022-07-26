@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+main {
+    font-family: 'Inter', sans-serif;
+    width: 1450px;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    font-size: 45px;
+    color: #331A0B;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px #E48B5E;
+    font-size: 60px;
+
+}
+.grid {
+    margin-left: 0px;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    grid-row-gap: 25px;
+    margin-bottom: 90px;
+}
+
+.cookie {
+    text-align: center;
+    
+}
+
+.cookie img {
+    height: 270px;
+    width: 270px;
+    padding: 5px;
+}
+
+
+
+.information {
+    place-items: center;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 30px;
+    justify-items: space-around;
+}
+
+.information h2{
+    margin-bottom: 14px;
+    font-size: 34px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.212);
+    color: #E48B5E;
+
+}
+.information button {
+    background-color: #AB7852;
+    color: #ffffff;
+    height: 55px;
+    width: 190px;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.212);
+    transition: 0.3s;
+    border: none;
+}
+
+.information button:hover {
+    background-color: rgb(255, 198, 198);
+    color: black;
+}
+
+footer p{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
